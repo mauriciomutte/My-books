@@ -1,0 +1,210 @@
+/*PROPRIEDADES GERAIS*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+.wrap {
+	margin: 0 7%;
+}
+
+.titleSection {
+	border-bottom: 1px solid #1ab3ff;
+	color: #0099E5;
+	margin-bottom: 1em;
+	padding-bottom: .35em;
+	font-size: 1.2em;
+	text-align: left;
+
+}
+
+.livro-capa{
+	height: 300px;
+	width: 210px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*FONTS*/
+
+header h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/*-----*/
+/*HEADER*/
+header {
+	background-image: url(../img/header-bk.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 160%;
+}
+
+header h1 {
+	color: #f1f1f1;
+	padding: 2em 0;
+	letter-spacing: 10px;
+	font-size: 39px;
+	text-align: center;
+}
+
+section {
+	margin-bottom: 4em
+}
+
+/*-----*/
+/*Lendo Agora*/
+.livrosAgora-title {
+	margin-top: 2em;
+}
+
+.lendoAgora {
+	border: 2px solid #1ab3ff;
+	margin: 2em auto;
+	max-width: 900px;
+	padding: 1em;
+}
+
+.lendoAgora-capa {
+	display: block;
+	margin: 0 auto 30px;
+	height: auto;
+	width: 180px;
+}
+
+.lendoAgora--titleBook {
+	padding-bottom: 7px;
+}
+
+.lendoAgora-description {
+	text-align: justify;
+}
+
+/*-----*/
+/*LIVRO*/
+
+.livro {
+	display: table;
+	padding: 10px;
+	margin: auto;
+}
+
+.livro + .livro {
+	margin-top: 2.5em;
+}
+
+.livro-title {
+	max-width: 205px;
+	padding: 1.5em 0;
+	text-align: center;
+}
+
+/*-----*/
+/*SOBRE MIM*/
+.aboutme-name {
+	margin:  0 0 1em;
+	font-size: 1.15em;
+	text-align: center;
+}
+
+.aboutme-sobre {
+	margin-bottom: 2em;
+	text-align: justify;
+}
+
+.aboutme--social {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.aboutme--portfolio, 
+.aboutme--twitter,
+.aboutme--github {
+	display: block;
+	font-size: 18px;
+	height: 35px;
+	letter-spacing: 1px;
+	margin: 5px 0;
+	padding-top: 9px;
+	text-align: center;
+}
+
+.aboutme--portfolio{
+	color: #fff;
+	background: #0099E5;
+}
+
+.aboutme--twitter{
+	color: #fff;
+	background: #00aced;
+}
+
+.aboutme--github{
+	color: #fff;
+	background: #333;
+}
+
+@media (min-width: 800px) {
+	.lendoAgora-text {
+		display: inline-block;
+		margin: 2em 1em;
+		vertical-align: top;
+		width: 600px;
+	}
+
+	.lendoAgora-titleBook {
+		margin-bottom: 10px;
+	}
+
+	.lendoAgora-description {
+		margin-bottom: 1em;
+	}
+
+	.lendoAgora-capa {
+		display: inline-block;
+		margin: 1em
+	}
+
+	.livrosAdquiridos .livro,
+	.livrosPendentes .livro {
+		display: inline-block;
+	}
+
+	.livro {
+		vertical-align: top;
+		margin: 0 1em;
+	}
+
+	.livro + .livro {
+		margin-top: 0;
+	}
+
+	.aboutme-sobre {
+		max-width: 800px;
+		margin: 0 auto 2em;
+	}
+
+	.aboutme-links {
+		text-align: center;
+	}
+
+	.aboutme--social {
+		width: 200px;
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+
+
