@@ -109,8 +109,8 @@ section {
 /*-----*/
 /*SOBRE MIM*/
 .aboutme-name {
-	margin:  0 0 1em;
-	font-size: 1.15em;
+	margin:  2em 0 1em;
+	font-size: 1.25em;
 	text-align: center;
 }
 
@@ -119,9 +119,21 @@ section {
 	text-align: justify;
 }
 
+.aboutme-p {
+	line-height: 25px;
+	font-size: 18apx;
+}
+
 .aboutme--social {
 	font-weight: bold;
 	text-decoration: none;
+	transition-duration: .2s;
+}
+
+.aboutme--social:hover {
+	-moz-transform: scale(.96);
+	-webkit-transform: scale(.96);
+	transform: scale(.96);
 }
 
 .aboutme--portfolio, 
@@ -190,6 +202,8 @@ section {
 		max-width: 800px;
 		margin: 0 auto 2em;
 	}
+
+
 
 	.aboutme-links {
 		text-align: center;
