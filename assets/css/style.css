@@ -1,5 +1,4 @@
 /*PROPRIEDADES GERAIS*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -20,7 +19,6 @@ body {
 	padding-bottom: .35em;
 	font-size: 1.2em;
 	text-align: left;
-
 }
 
 .livro-capa{
@@ -203,8 +201,6 @@ section {
 		margin: 0 auto 2em;
 	}
 
-
-
 	.aboutme-links {
 		text-align: center;
 	}
@@ -214,11 +210,3 @@ section {
 		display: inline-block;
 	}
 }
-
-
-
-
-
-
-
-

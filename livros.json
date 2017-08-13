@@ -1,0 +1,46 @@
+{
+	"lidos":[
+		{
+			"titulo": "O poder do pensamento matemático",
+			"capa": "assets/img/O-poder-do-pensamento-matematico.jpg"
+		},
+		{
+			"titulo": "A Arte da Guerra",
+			"capa": "assets/img/A-arte-da-guerra.jpg"
+		},
+		{
+			"titulo": "SEO Prático",
+			"capa": "assets/img/SEO-Pratico.jpg"
+		},
+		{
+			"titulo": "Coletânea Front-End",
+			"capa": "assets/img/Coletanea-Front-End.jpg"
+		},
+		{
+			"titulo": "Lógica de Programação",
+			"capa": "assets/img/Logica-de-programacao.jpg"
+		},
+		{
+			"titulo": "Harry Potter e a Pedra Filosofal",
+			"capa": "assets/img/Harry-Potter-e-a-pedra-filosofal.jpg"
+		}
+	],
+	"paraLer":[
+		{
+			"titulo": "Eloquent Javascript",
+			"capa": "assets/img/Eloquent-javascript.png"
+		},
+		{
+			"titulo": "Sapiens - Uma breve história da humanidade",
+			"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
+		},
+		{
+			"titulo": "O Poder do Hábito",
+			"capa": "assets/img/O-poder-do-habito.png"
+		},
+		{
+			"titulo": "Harry Potter e a Câmara Secreta",
+			"capa": "assets/img/Harry-Potter-e-a-camara-secreta.jpg"
+		}
+	]
+}
