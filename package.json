@@ -1,0 +1,25 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "Esse ano quero ler ainda mais livros do que ano passado, por isso, criei esse site para compartilhar e gerenciar os livros que estou lendo, já li ou quero ler.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciomutte/My-books-for-2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciomutte/My-books-for-2017/issues"
+  },
+  "homepage": "https://github.com/mauriciomutte/My-books-for-2017#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
