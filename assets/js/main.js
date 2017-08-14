@@ -1,3 +1,4 @@
+var lendoAgora = document.getElementById('lendoAgora')
 var lidos = document.getElementById('lidos')
 var paraLer = document.getElementById('paraLer')
 
@@ -5,6 +6,29 @@ var require = new XMLHttpRequest();
 require.open("GET", "livros.json", true);
 require.onload = function() {
   var book = JSON.parse(this.responseText);
+  for (var i = 0; i < book.lendoAgora.length; i++) {
+
+		var capa = document.createElement('img')
+		capa.classList.add('lendoAgora-capa', 'livro-capa')
+		capa.src = book.lendoAgora[i].capa
+		capa.alt = 'Capa do livro "' + book.lendoAgora[i].titulo + '"' 
+		lendoAgora.appendChild(capa)
+
+		var boxLendoAgora = document.createElement('div')
+		boxLendoAgora.classList.add('lendoAgora-text')
+		lendoAgora.appendChild(boxLendoAgora)
+
+
+		var titulo = document.createElement('h3')
+		titulo.classList.add('lendoAgora-titleBook')
+		titulo.innerHTML = book.lidos[i].titulo
+		boxLendoAgora.appendChild(titulo)
+
+		var description = document.createElement('p')
+		description.classList.add('lendoAgora-description')
+		description.innerHTML = book.lendoAgora[i].description
+		boxLendoAgora.appendChild(description)
+	}
   // Livros lidos
 	for (var i = 0; i < book.lidos.length; i++) {
 
