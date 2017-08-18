@@ -18,7 +18,6 @@ require.onload = function() {
 		boxLendoAgora.classList.add('lendoAgora-text')
 		lendoAgora.appendChild(boxLendoAgora)
 
-
 		var titulo = document.createElement('h3')
 		titulo.classList.add('lendoAgora-titleBook')
 		titulo.innerHTML = book.lidos[i].titulo
