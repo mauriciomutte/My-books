@@ -34,8 +34,16 @@
 	],
 	"paraLer":[
 		{
-			"titulo": "Eloquent Javascript",
+			"titulo": "Eloquent JavaScript",
 			"capa": "assets/img/Eloquent-javascript.png"
+		},
+		{
+			"titulo": "Cangaceiro JavaScript",
+			"capa": "assets/img/Cangaceiro-JavaScript.jpg"
+		},
+		{
+			"titulo": "Pai rico, pai pobre",
+			"capa": "assets/img/Pai-rico-pai-pobre.png"
 		},
 		{
 			"titulo": "Sapiens - Uma breve história da humanidade",
