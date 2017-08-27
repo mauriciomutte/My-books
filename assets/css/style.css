@@ -97,7 +97,7 @@ section {
 	border-radius: 2px;
 	color: #1ab3ff;
 	font-size: 20px;
-	font-weight: 600;		
+	font-weight: 600;	
 	margin: 0 1%;
 	padding: 7px 12px;
 	text-decoration: none;
@@ -128,8 +128,18 @@ section {
 
 /*-----*/
 /*SOBRE MIM*/
+.aboutme-img {
+	text-align: center;
+}
+.aboutme-img img {
+	border: 1px solid #D6D0D0;
+	border-radius: 50%;
+	height: 185px;
+	margin: 2em 0 1em;
+	width: 185px;
+}
 .aboutme-name {
-	margin:  2em 0 1em;
+	margin: 0 0 1em;
 	font-size: 1.25em;
 	text-align: center;
 }
