@@ -56,6 +56,10 @@
 		{
 			"titulo": "Harry Potter e a Câmara Secreta",
 			"capa": "assets/img/Harry-Potter-e-a-camara-secreta.jpg"
-		}
+		},
+		{
+			"titulo": "Geração de valor",
+			"capa": "assets/img/Geracao-de-valor.png"
+		}	
 	]
 }
