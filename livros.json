@@ -38,6 +38,14 @@
 			"capa": "assets/img/Eloquent-javascript.png"
 		},
 		{
+			"titulo": "Como Fazer Amigos e Influenciar Pessoas",
+			"capa": "assets/img/Como-fazer-amigos.png"
+		},
+		{
+			"titulo": "Geração de valor",
+			"capa": "assets/img/Geracao-de-valor.png"
+		},
+		{
 			"titulo": "Cangaceiro JavaScript",
 			"capa": "assets/img/Cangaceiro-JavaScript.jpg"
 		},
@@ -56,10 +64,6 @@
 		{
 			"titulo": "Harry Potter e a Câmara Secreta",
 			"capa": "assets/img/Harry-Potter-e-a-camara-secreta.jpg"
-		},
-		{
-			"titulo": "Geração de valor",
-			"capa": "assets/img/Geracao-de-valor.png"
-		}	
+		}
 	]
 }
