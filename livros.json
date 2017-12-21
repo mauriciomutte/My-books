@@ -12,6 +12,10 @@
 			"capa": "assets/img/O-poder-do-pensamento-matematico.jpg"
 		},
 		{
+			"titulo": "Eloquent JavaScript",
+			"capa": "assets/img/Eloquent-javascript.png"
+		},
+		{
 			"titulo": "A Arte da Guerra",
 			"capa": "assets/img/A-arte-da-guerra.jpg"
 		},
@@ -34,8 +38,8 @@
 	],
 	"paraLer":[
 		{
-			"titulo": "Eloquent JavaScript",
-			"capa": "assets/img/Eloquent-javascript.png"
+			"titulo": "Sapiens - Uma breve história da humanidade",
+			"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
 		},
 		{
 			"titulo": "Como Fazer Amigos e Influenciar Pessoas",
@@ -52,10 +56,6 @@
 		{
 			"titulo": "Pai rico, pai pobre",
 			"capa": "assets/img/Pai-rico-pai-pobre.png"
-		},
-		{
-			"titulo": "Sapiens - Uma breve história da humanidade",
-			"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
 		},
 		{
 			"titulo": "O Poder do Hábito",
