@@ -1,11 +1,12 @@
 var lendoAgora = document.getElementById('lendoAgora')
-var lidos = document.getElementById('lidos')
+var seven = document.getElementById('2017')
+var eight = document.getElementById('2018')
 var paraLer = document.getElementById('paraLer')
 
 var require = new XMLHttpRequest();
 require.open("GET", "livros.json", true);
 require.onload = function() {
-  var book = JSON.parse(this.responseText);
+	var book = JSON.parse(this.responseText);
   for (var i = 0; i < book.lendoAgora.length; i++) {
 
 		var capa = document.createElement('img')
@@ -28,24 +29,46 @@ require.onload = function() {
 		description.innerHTML = book.lendoAgora[i].description
 		boxLendoAgora.appendChild(description)
 	}
-  // Livros lidos
-	for (var i = 0; i < book.lidos.length; i++) {
+	// Livros lidos
+	
+	// 2018
+	for (var i = 0; i < book.lidos.eight.length; i++) {
 
 		var livro = document.createElement('div')
 		livro.classList.add('livro')
-		lidos.appendChild(livro)
+		eight.appendChild(livro)
 
 		var capa = document.createElement('img')
 		capa.classList.add('livro-capa')
-		capa.src = book.lidos[i].capa
-		capa.alt = 'Capa do livro "' + book.lidos[i].titulo + '"' 
+		capa.src = book.lidos.eight[i].capa
+		capa.alt = 'Capa do livro "' + book.lidos.eight[i].titulo + '"' 
 		livro.appendChild(capa)
 
 		var titulo = document.createElement('h3')
 		titulo.classList.add('livro-title')
-		titulo.innerHTML = book.lidos[i].titulo
+		titulo.innerHTML = book.lidos.eight[i].titulo
 		livro.appendChild(titulo)
 	}
+
+	// 2017
+	for (var i = 0; i < book.lidos.seven.length; i++) {
+
+		var livro = document.createElement('div')
+		livro.classList.add('livro')
+		seven.appendChild(livro)
+
+		var capa = document.createElement('img')
+		capa.classList.add('livro-capa')
+		capa.src = book.lidos.seven[i].capa
+		capa.alt = 'Capa do livro "' + book.lidos.seven[i].titulo + '"' 
+		livro.appendChild(capa)
+
+		var titulo = document.createElement('h3')
+		titulo.classList.add('livro-title')
+		titulo.innerHTML = book.lidos.seven[i].titulo
+		livro.appendChild(titulo)
+	}
+	
 
 	// Livros para ler
 	for (var i = 0; i < book.paraLer.length; i++) {
