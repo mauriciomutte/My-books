@@ -1,7 +1,7 @@
-# My books for 2017
+# My books
 This year I want to read many books, so I created this repository to share and manage my books and my desired books
 
-[View the project](https://mauriciomutte.github.io/My-books-for-2017/)
+[View the project](https://mauriciomutte.github.io/My-books/)
 
 ## Reading now
 Shows the book I'm reading at the time of the project visit
