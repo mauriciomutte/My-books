@@ -1,13 +1,17 @@
 {
 	"lendoAgora": [
 		{
-			"titulo": "O Monge e o Executivo",
-			"capa": "assets/img/O-Monge-e-o-Executivo.jpg",
-			"description": "Se você é líder ou quer se tornar um, o livro O Monge e o Executivo - Uma história sobre a essência da liderança é ideal para você. Nele, você terá os conhecimentos de como se relacionar com as pessoas e fazer com que uma equipe tenha segurança em você para seguirem pelo mesmo caminho. Com a obra, você poderá ter uma visão mais ampliada de como se abrir a novas oportunidades e horizontes, como ajudar as pessoas a darem o seu melhor e, principalmente, como reconhecer o que há de melhor em você e em quem está ao seu redor. Os personagens de O Monge e o Executivo - Uma história sobre a essência da liderança vai te apresentar os princípios dos verdadeiros líderes e o que fez com que eles alcançassem suas metas. Assim, você pode criar um espelho, absorver essas ideias e tornar-se um líder de verdade."
+			"titulo": "Sapiens - Uma breve história da humanidade",
+			"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg",
+			"description": "O autor repassa a história da humanidade, ou do homo sapiens, desde o surgimento da espécie durante a pré-história até o presente, mas em vez de apenas “inventariar” os fatos históricos ele os relaciona com questões do presente e os questiona de maneira surpreendente. Além disso, para cada fato ou crença que temos como certa hoje em dia, o autor apresenta as diversas interpretações existentes a partir de diferentes pontos de vista, inclusive as muito atuais, e vai além, sugerindo interpretações muitas vezes desconcertantes. Yuval Noah Harari é professor do departamento de história da Universidade Hebraica de Jerusalém. É especialista em história mundial, medieval e militar."
 		}
 	],
 	"lidos": {
 		"eight": [
+			{
+				"titulo": "Sapiens - Uma breve história da humanidade",
+				"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
+			},
 			{
 				"titulo": "O Monge e o Executivo",
 				"capa": "assets/img/O-Monge-e-o-Executivo.jpg"
@@ -49,10 +53,6 @@
 		]
 	},
 	"paraLer":[
-		{
-			"titulo": "Sapiens - Uma breve história da humanidade",
-			"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
-		},
 		{
 			"titulo": "Como Fazer Amigos e Influenciar Pessoas",
 			"capa": "assets/img/Como-fazer-amigos.png"
