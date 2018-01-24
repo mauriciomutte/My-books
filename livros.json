@@ -7,6 +7,16 @@
 		}
 	],
 	"lidos": {
+		"eight": [
+			{
+				"titulo": "O Monge e o Executivo",
+				"capa": "assets/img/O-Monge-e-o-Executivo.jpg"
+			},
+			{
+				"titulo": "Os Segredos da Mente Milionária",
+				"capa": "assets/img/Os-Segredos-da-Mente-Milionária.jpg"
+			}
+		],
 		"seven": [
 			{
 				"titulo": "O poder do pensamento matemático",
@@ -35,16 +45,6 @@
 			{
 				"titulo": "Harry Potter e a Pedra Filosofal",
 				"capa": "assets/img/Harry-Potter-e-a-pedra-filosofal.jpg"
-			}
-		],
-		"eight": [
-			{
-				"titulo": "O Monge e o Executivo",
-				"capa": "assets/img/O-Monge-e-o-Executivo.jpg"
-			},
-			{
-				"titulo": "Os Segredos da Mente Milionária",
-				"capa": "assets/img/Os-Segredos-da-Mente-Milionária.jpg"
 			}
 		]
 	},
