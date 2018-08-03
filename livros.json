@@ -58,6 +58,14 @@
 	},
 	"paraLer":[
 		{
+			"titulo": "A startup enxuta",
+			"capa": "assets/img/a-startup-enxuta.jpg"
+		},
+		{
+			"titulo": "De zero a um",
+			"capa": "assets/img/de-zero-a-um.jpg"
+		},
+		{
 			"titulo": "Como Fazer Amigos e Influenciar Pessoas",
 			"capa": "assets/img/Como-fazer-amigos.png"
 		},
