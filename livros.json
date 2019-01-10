@@ -64,6 +64,10 @@
 	},
 	"paraLer":[
 		{
+			"titulo": "O Poder do Hábito",
+			"capa": "assets/img/O-poder-do-habito.png"
+		},
+		{
 			"titulo": "A Bíblia de Vendas",
 			"capa": "assets/img/a-biblia-de-vendas.jpg"
 		},
@@ -82,10 +86,6 @@
 		{
 			"titulo": "Pai rico, pai pobre",
 			"capa": "assets/img/Pai-rico-pai-pobre.png"
-		},
-		{
-			"titulo": "O Poder do Hábito",
-			"capa": "assets/img/O-poder-do-habito.png"
 		},
 		{
 			"titulo": "Harry Potter e a Câmara Secreta",
