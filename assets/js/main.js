@@ -1,6 +1,7 @@
 var lendoAgora = document.getElementById('lendoAgora')
 var seven = document.getElementById('2017')
 var eight = document.getElementById('2018')
+var nine = document.getElementById('2019')
 var paraLer = document.getElementById('paraLer')
 
 var require = new XMLHttpRequest();
@@ -31,6 +32,25 @@ require.onload = function() {
 	}
 	// Livros lidos
 	
+	// 2018
+	for (var i = 0; i < book.lidos.nine.length; i++) {
+
+		var livro = document.createElement('div')
+		livro.classList.add('livro')
+		nine.appendChild(livro)
+
+		var capa = document.createElement('img')
+		capa.classList.add('livro-capa')
+		capa.src = book.lidos.nine[i].capa
+		capa.alt = 'Capa do livro "' + book.lidos.nine[i].titulo + '"' 
+		livro.appendChild(capa)
+
+		var titulo = document.createElement('h3')
+		titulo.classList.add('livro-title')
+		titulo.innerHTML = book.lidos.nine[i].titulo
+		livro.appendChild(titulo)
+	}
+
 	// 2018
 	for (var i = 0; i < book.lidos.eight.length; i++) {
 

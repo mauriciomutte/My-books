@@ -7,11 +7,13 @@
 		}
 	],
 	"lidos": {
-		"eight": [
+		"nine": [
 			{
 				"titulo": "Sapiens - Uma breve história da humanidade",
 				"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
-			},
+			}
+		],
+		"eight": [
 			{
 				"titulo": "Dom Casmurro",
 				"capa": "assets/img/Dom-casmurro.jpg"
