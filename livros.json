@@ -68,8 +68,20 @@
 			"capa": "assets/img/O-poder-do-habito.png"
 		},
 		{
+			"titulo": "A startup enxuta",
+			"capa": "assets/img/a-startup-enxuta.jpg"
+		},
+		{
 			"titulo": "Rápido e devagar",
 			"capa": "assets/img/rapido-e-devagar.jpg"
+		},
+		{
+			"titulo": "De zero a um",
+			"capa": "assets/img/de-zero-a-um.jpg"
+		},
+		{
+			"titulo": "Harry Potter e a Câmara Secreta",
+			"capa": "assets/img/Harry-Potter-e-a-camara-secreta.jpg"
 		},
 		{
 			"titulo": "A Bíblia de Vendas",
@@ -80,20 +92,8 @@
 			"capa": "assets/img/Como-fazer-amigos.png"
 		},
 		{
-			"titulo": "A startup enxuta",
-			"capa": "assets/img/a-startup-enxuta.jpg"
-		},
-		{
-			"titulo": "De zero a um",
-			"capa": "assets/img/de-zero-a-um.jpg"
-		},
-		{
 			"titulo": "Pai rico, pai pobre",
 			"capa": "assets/img/Pai-rico-pai-pobre.png"
-		},
-		{
-			"titulo": "Harry Potter e a Câmara Secreta",
-			"capa": "assets/img/Harry-Potter-e-a-camara-secreta.jpg"
 		}
 	]
 }
