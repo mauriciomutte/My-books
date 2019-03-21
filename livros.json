@@ -11,6 +11,10 @@
 			{
 				"titulo": "Sapiens - Uma breve história da humanidade",
 				"capa": "assets/img/Sapiens-uma-breve-historia-da-humanidade.jpg"
+			},
+			{
+				"titulo": "O Poder do Hábito",
+				"capa": "assets/img/O-poder-do-habito.png"
 			}
 		],
 		"eight": [
@@ -63,10 +67,6 @@
 		]
 	},
 	"paraLer":[
-		{
-			"titulo": "O Poder do Hábito",
-			"capa": "assets/img/O-poder-do-habito.png"
-		},
 		{
 			"titulo": "A startup enxuta",
 			"capa": "assets/img/a-startup-enxuta.jpg"
